@@ -59,25 +59,25 @@ bootstrap:
         - cdf-project: cdf-bootcamp-06-test
           mappings:
               - cdf-group: cdf:root
-                idp-source-id: 80bc0041-ff30-4241-b651-c43ba6f36463
+                idp-source-id: 67d16f2f-c2de-4995-8986-73e78c21952f
                 idp-source-name: bootcamp-6-test-admin
               - cdf-group: cdf:all:owner
-                idp-source-id: 7f8a9612-25b3-4c99-b7df-95c7678e1123 # for the AAD Group to be matched to cdf-group
+                idp-source-id: 86e974fb-32ff-4864-87de-832dacd2170b # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-6-test-all-owner # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id: a30b8ec8-19d9-431b-aced-ff92485da5da # for the AAD Group to be matched to cdf-group
+                idp-source-id: aa99fbc1-7761-42aa-941c-fb48789fe516 # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-6-test-all-read # i.e. bootcamp-01-test-all-read
 
-        - cdf-project: cdf-bootcamp-06-pro
+        - cdf-project: cdf-bootcamp-06-prod
           mappings:
               - cdf-group: cdf:root
-                idp-source-id: 1b3501d0-9347-4d18-990a-0e71e63fc69c
+                idp-source-id: cca26a75-8a55-43fa-928c-1b13c741b563
                 idp-source-name: bootcamp-6-prod-admin
               - cdf-group: cdf:all:owner
-                idp-source-id: 7f8a9612-25b3-4c99-b7df-95c7678e1123 # for the AAD Group to be matched to cdf-group
+                idp-source-id: d7b992cc-3ed2-41f3-b10e-5b50a85df191 # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-6-prod-all-owner # i.e. bootcamp-01-test-all-owner
               - cdf-group: cdf:all:read
-                idp-source-id: 31529877-f38a-45e9-9e22-2e53f2626e56 # for the AAD Group to be matched to cdf-group
+                idp-source-id: 8df79f02-111e-4e18-ae2c-da21cebec45e # for the AAD Group to be matched to cdf-group
                 idp-source-name: bootcamp-6-prod-all-read # i.e. bootcamp-01-test-all-read
 
     namespaces:
